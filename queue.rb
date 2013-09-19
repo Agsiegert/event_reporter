@@ -2,11 +2,13 @@ class Queue
 
   attr_accessor :results
 
-  def initialize(input = {})
-    @results = Queue.new
+  def initialize
+    @results = []
   end
-  
+
   # def queue_clear
+   
+  #   @results = nil
   #   #empties queue
   # end
 
@@ -48,6 +50,5 @@ class Queue
   #   #clears queue
   # end
 
-  
 
 end
